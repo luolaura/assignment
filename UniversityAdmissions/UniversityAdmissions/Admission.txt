@@ -1,0 +1,11 @@
+								
+Odis Glymph		yes		80		3		yes		3			yes		90
+Gerard Merlin		yes		85		5		yes		5			yes		95
+Tammi Rosenbaum		yes		85		2		yes		5			no 		85
+Bert Bosley		yes		90		5		no		2			yes		80
+Krystyna Tilghman	yes		90		3		yes		4			yes		90
+Daniele Bolster		yes		75		3		no		3			yes		95
+Brinda Autrey		yes		60		4		no		1			no		80
+Chasity Mccarville	yes		95		2		yes		2			yes		90
+Hank Honn		yes		98		3		yes		5			yes		95
+Franklin Thorpe		yes		65		4		yes		2			no		85
