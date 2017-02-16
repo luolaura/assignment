@@ -21,6 +21,8 @@ public class UniversityAdmissions {
         Scanner scan =new Scanner(AdmissionFile);
         PrintWriter myOutputFile = new PrintWriter("Accpeted File");
         myOutputFile.println("Name" + "\t" + "Result");
+       
+        
         while(scan.hasNext()){
             String name = scan.next();
             
@@ -37,9 +39,12 @@ public class UniversityAdmissions {
             String photoshop =scan.next();
             
             int artMark = scan.nextInt();
-          
+            
+            if (portfolio.equals("yes") && (goodDrawing == 2)){
+                String Accpted ="Accpted";
+                myOutputFile.println(name + "\t" + Accpted);
         }
-        if (portfolio.equals("yes")){
+        
             
         }
         myOutputFile.close();
