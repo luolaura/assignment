@@ -21,8 +21,6 @@ public class UniversityAdmissions {
         Scanner scan =new Scanner(AdmissionFile);
         PrintWriter myOutputFile = new PrintWriter("Accpeted File");
         myOutputFile.println("Name" + "\t" + "Result");
-       
-        
         while(scan.hasNext()){
             String name = scan.next();
             
@@ -40,13 +38,15 @@ public class UniversityAdmissions {
             
             int artMark = scan.nextInt();
             
-            if (portfolio.equals("yes") && (goodDrawing == 2)){
+            if (portfolio.equals("yes") && (goodDrawing >= 2 || artMark >= 85) && clubs >= 3){
                 String Accpted ="Accpted";
                 myOutputFile.println(name + "\t" + Accpted);
+            }else if (photoshop.equals("yes") && artContest.equals("yes") || average >= 90){
+                String Accpted ="Accpted";
+                myOutputFile.println(name + "\t" + Accpted);
+            }
         }
         
-            
-        }
         myOutputFile.close();
     }
 }
